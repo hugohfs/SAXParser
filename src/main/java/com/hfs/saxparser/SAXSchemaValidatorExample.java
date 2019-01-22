@@ -21,7 +21,8 @@ public class SAXSchemaValidatorExample {
 	public static void main(String[] a) {
 
 		String schemaName = "src/main/resources/xsd/myCustomer.xsd";
-		String xmlName = "src/main/resources/xml/myCustomer.xml";
+		//String xmlName = "src/main/resources/xml/myCustomer.xml";
+		String xmlName = "src/main/resources/xml/myCustomerInvalid.xml";
 		Schema schema = loadSchema(schemaName);
 
 		// call validate method to validate the xml with schema
